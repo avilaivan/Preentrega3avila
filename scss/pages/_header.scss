@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: $negro;
+}
+
+
+
+.header {
+  width: 100%;
+  background-image: linear-gradient(to right, $gris, $negro);
+}
+
+.nav-link {
+    color: $blanco !important;
+  
+    &.nav-brand {
+      color: $blanco !important;
+    }
+  
+    &:hover {
+      color: $negro !important;
+    }
+  }
+  
+  @media (max-width: 668px) {
+    .nav-link {
+      text-align: center;
+      justify-content: space-around;
+    }
+    
+  }
+  
+  .nav-link {
+    margin: 0.2rem;
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+  
+  .navbar-toggler {
+    border: none !important;
+  }
+  

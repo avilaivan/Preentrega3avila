@@ -1,0 +1,11 @@
+@mixin iconos-display{
+    justify-content: center;
+    display: flex;
+    }
+  
+     @mixin posicion-transition-iconos{
+      margin-right: 30px;
+      transition: 1s;
+      object-fit: cover;
+    }
+  

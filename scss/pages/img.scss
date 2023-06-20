@@ -1,0 +1,21 @@
+.image-container {
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .img-thumbnail {
+    border: none !important;
+    transition: transform 0.3s;
+  
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .logotipo {
+    margin-top: -10px;
+    background-color: $negro;
+  }
